@@ -1,0 +1,1 @@
+ A personal portfolio page to complete a challenge for FreeCodeCamp. Started at CodePen but transferred here to work on it further. This portfolio page is a continuing work in progress for me! Right now focused on setting up a working contact form. 
