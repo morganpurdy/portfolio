@@ -1,9 +1,6 @@
 body{
-  
   background-color: #ccf2ff;
 }
- 
-
 
 #container{
   padding-top: 80px;
@@ -20,6 +17,7 @@ hr{
 input, textarea, button{
   margin-top: 10px;
 }
+
 a {
   color:inherit;
 }
