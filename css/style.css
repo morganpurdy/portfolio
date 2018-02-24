@@ -57,12 +57,11 @@ header {
 }
 
 ul.nav .nav-item {
- display:block;
- color: inherit;
+ display: block;
 }
 
 ul.nav .nav-item a:hover {
- color:  #bf80ff;
+ color:  purple !important;
 }
 
 hr {
@@ -80,7 +79,7 @@ a {
 }
 
 a:hover {
-  color: #bf80ff;
+  color: purple;
 }
 
 .social-media {
