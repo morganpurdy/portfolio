@@ -1,23 +1,26 @@
-body{
-  background-color: #ccf2ff;
-  padding-top: 300px;
+* {
+    box-sizing: border-box;
 }
 
-header{
-  height: 300px;
+body {
+  background-color: #ccf2ff;
+  padding-top: 400px;
+}
+
+.header {
+  height: 400px;
   padding-top: 50px;
   background-color: #00b3b3;
 }
 
-
-.intro{
+.intro {
   color: white;
   text-align: center;
   margin: 0 auto;
   width: 75%;
 }
 
-.intro-main{
+.intro-main {
   font-size: 70px;
   margin-bottom: 15px;
 }
@@ -34,8 +37,7 @@ header{
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
-header,
-.main-nav-scrolled{
+header {
   position: fixed;
   width: 100%;
   top: 0;
@@ -47,27 +49,40 @@ header,
   width: 100%
 }
 
-#container{
+#container {
   background-color: #ccf2ff;
   padding: 80px;
   margin: 0 auto;
   width: 100%;
 }
 
-hr{
+ul.nav .nav-item {
+ display:block;
+ color: inherit;
+}
+
+ul.nav .nav-item a:hover {
+ color:  #bf80ff;
+}
+
+hr {
   border: 2px solid white;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-input, textarea, button{
+input, textarea, button {
   margin-top: 10px;
 }
 
 a {
-  color:inherit;
+  color: inherit;
 }
 
-.social-media{
+a:hover {
+  color: #bf80ff;
+}
+
+.social-media {
  margin: 10px;
 }
