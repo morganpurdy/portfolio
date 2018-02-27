@@ -2,27 +2,35 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
   background-color: #ccf2ff;
-  padding-top: 400px;
+} */
+
+section {
+  padding-top: 250px;
+  background-color: #ccf2ff;
 }
 
 .header {
-  height: 400px;
-  padding-top: 50px;
-  background-color: #00b3b3;
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  top: 0;
 }
 
 .intro {
-  color: white;
+  position: relative;
   text-align: center;
   margin: 0 auto;
   width: 75%;
+  z-index: 200;
 }
 
 .intro-main {
+  position: relative;
   font-size: 70px;
   margin-bottom: 15px;
+  z-index: 200;
 }
 
 .main-nav,
@@ -35,12 +43,6 @@ body {
   z-index: 100;
   margin-bottom: -60px;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
 }
 
 .sticky {
