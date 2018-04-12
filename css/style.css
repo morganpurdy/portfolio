@@ -36,6 +36,11 @@ section {
   width: 100%
 }
 
+.prompt {
+  width: 250px;
+  margin: 0 auto;
+}
+
 #container {
   background-color: #ccf2ff;
   padding: 80px;
