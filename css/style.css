@@ -19,6 +19,11 @@ p {
   font-weight: lighter;
 }
 
+.navbar-collapse {
+  background-color: white !important;
+  padding: 10px;
+}
+
 .intro-main {
   font-size: 5rem;
   padding-bottom: 20px;
