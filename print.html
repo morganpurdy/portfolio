@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
   <link rel="icon" href="https://image.ibb.co/iVPp8x/NEWlogos.png">
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 </head>
@@ -44,37 +45,43 @@
 
 <div id="container" class= "main">
 
-<section>
+
+
+<section id = "printsec">
     <h1 id="printexamples"><strong>Print examples</strong></h1>
-    <p>Below are some of the print designs I have created throughout my career.
-    <div class="row">
-     <div class="col-md-4">
-       <img src="images/twinspp.jpg" alt="sports cover" border="0" class="img-fluid img-thumbnail print"><p>A sports cover I designed for the Pioneer Press of St. Paul.</p>
-     </div>
-      <div class="col-md-4">
-        <img src="images/fmag.jpg" alt="magazine cover" border="0" class="img-fluid img-thumbnail print"><p>A cover I designed for weekly magazine of Boulder.</p>
-      </div>
-      <div class="col-md-4">
-        <img src="images/0512fmag.jpg" alt="second magaizne cover" border="0" class="img-fluid img-thumbnail print"><p>A cover I designed for weekly magazine of Boulder.</p>
-      </div>
-      <div class="col-md-4">
-        <img src="images/hart.jpg" alt="third magaizne cover" border="0" class="img-fluid img-thumbnail print"><p>A cover I designed for Vox Magazine in Columbia, Missouri.</p>
-      </div>
-       <div class="col-md-4">
-         <img src="images/brawl.jpg" alt="sports cover" border="0" class="img-fluid img-thumbnail print"><p>A cover I designed during my internship at the Gannett Design Studio.</p>
-      </div>
-    </div><!--end div for row for web example images-->
+    <p>Below are some of the print designs I have created throughout my career.</p>
+
+      <a href= "images/twinspp.jpg"  data-fancybox="images" data-caption="A sports cover I designed for the St. Paul Pioneer Press.">
+  	     <img src="images/twinspp.jpg" alt="sports cover" class ="print img-thumbnail"/>
+     </a>
+
+     <a href= "images/fmag.jpg" data-fancybox="images" data-caption="A Friday Magazine cover I designed for the Boulder weekly magazine.">
+       <img src="images/fmag.jpg" alt="sports cover" class ="print img-thumbnail" />
+    </a>
+
+    <a href= "images/0512fmag.jpg" data-fancybox="images" data-caption="Another Friday Magazine cover I designed for a feature about breakfasts.">
+       <img src="images/0512fmag.jpg" alt="sports cover" class ="print img-thumbnail" />
+   </a>
+
+   <a href= "images/doubletruck.jpg" data-fancybox="images" data-caption="The center spread I designed to accompany the previous cover about breakfasts.">
+      <img src="images/doubletruck.jpg" alt="sports cover" class ="print img-thumbnail" />
+  </a>
+
+  <a href= "images/brawl.jpg" data-fancybox="images" data-caption="A cover I designed during my internship at the Nashville Gannett design studio.">
+     <img src="images/brawl.jpg" alt="sports cover" class ="print img-thumbnail" />
+
+     <a href= "images/ppeat.jpg" data-fancybox="images" data-caption="A features section cover I designed for the St. Paul Pioneer Press.">
+        <img src="images/ppeat.jpg" alt="sports cover" class ="print img-thumbnail" />
+ </a>
+
   </section>
 </div> <!-- end container div-->
 
-
-
-
+  <script src="script.js"></script>
+  <script  src="jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
   <script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
-
-  <script src="script.js"></script>
-  <script  src="jquery.js"></script>
   </body>
-  </html>
+</html>

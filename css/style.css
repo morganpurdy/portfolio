@@ -68,6 +68,8 @@ p {
 
 .print {
   width: 260px;
+  margin-right: 5%;
+  margin-bottom: 10%;
 }
 
 .link {
@@ -80,6 +82,10 @@ p {
   margin: 0 auto;
   width: 100%;
   /* position: relative; */
+}
+
+#printsec {
+  margin: 0 auto;
 }
 
 li {
