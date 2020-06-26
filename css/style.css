@@ -26,13 +26,14 @@ p {
 
 .intro-main {
   font-size: 5rem;
+  font-weight: 700;
   padding-bottom: 20px;
-  font-family: "Bitter", serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .intro-secondary {
-  font-weight: 400;
-  font-family: "Bitter", serif;
+  font-weight: 200;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -88,8 +89,9 @@ p {
   margin: 0 auto;
 }
 
-li {
-  font-family: "Bitter", serif;
+li, .section-header {
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
 }
 
 ul.nav .nav-item {
@@ -143,7 +145,6 @@ a:hover {
   .intro-secondary {
     font-size: 0.75rem;
   }
-
 
   #container {
     padding: 40px;
