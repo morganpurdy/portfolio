@@ -7,12 +7,8 @@ body {
   background-color: #ccf2ff;
 }
 
-section {
-  background-color: #ccf2ff;
-}
-
 h1 {
-  font-family: "Bitter", serif;
+  font-family: "Oswald", sans-serif;
 }
 
 p {
@@ -22,6 +18,11 @@ p {
 .navbar-collapse {
   background-color: white !important;
   padding: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 .intro-main {
@@ -42,10 +43,9 @@ p {
 }
 
 .main-nav {
-  /* position: relative; */
   height: 60px;
   z-index: 300;
-  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 
 .sticky {
@@ -82,7 +82,6 @@ p {
   padding: 80px;
   margin: 0 auto;
   width: 100%;
-  /* position: relative; */
 }
 
 #printsec {
@@ -99,7 +98,7 @@ ul.nav .nav-item {
 }
 
 ul.nav .nav-item a:hover {
- color:  purple !important;
+ color:  #800080 !important;
 }
 
 hr {
